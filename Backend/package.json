@@ -4,10 +4,7 @@
   "main": "server.js",
  
   "scripts": {
-    "start": "node server.js",
-  "heroku-postbuild": "cd ../Frontend && npm install && npm run build",
-  "build": "cd ../Frontend && npm install && npm run build"
-     
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
